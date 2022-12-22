@@ -21,7 +21,7 @@ void main () {
     }
     var guess = int.tryParse(input);
     guessResult = game.doguess(guess!);
-    //print(guessResuldts);s
+    //print(guessResuldts);s11111111111111111111111111111
     if(guessResult == guessresult.correct){
       print(" $guess is coorrect,total guesses 🎁: ${n.myList.length}");
       print("⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯");
