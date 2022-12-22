@@ -7,12 +7,12 @@ enum guessresult {
   tooLow
 }
 class n  {
-  final int answer = Random().nextInt(100) + 1;
+  var answer ;
   int totalGuesses = 0;
   static List<int> myList = [];
 
 n () {
-  print('Answer = $answer');
+  answer = Random().nextInt(100) + 1;
 }
   guessresult doguess(int guess) {
     myList.add(totalGuesses++);
